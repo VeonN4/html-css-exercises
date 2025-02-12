@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
+
     .teks-1 {
       font-family: Tahoma;
     }
@@ -51,15 +52,37 @@
 
     .teks-5 {
       font-family: Arial, Helvetica, sans-serif;
+      line-height: 20px;
     }
 
-    .teks-5 #currency-value {
-      display: grid;
+    .teks-5 .currency {
+      font-size: 32px;
     }
 
-    .teks-5 #currency-value h4 {
-      margin-top: 30px;
+    .teks-5 .currency #currency-type {
+      font-size: 18px;
       color: gray;
+    }
+
+    .teks-6 {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .teks-6 #display-name {
+      font-weight: bold;
+    }
+
+    .teks-6 #username, #time {
+      color: gray;
+    }
+
+    .teks-6 #content p {  
+      margin: 5px 0px 0px 0px;
+      max-width: 550px;
+    }
+
+    .teks-6 #tag {
+      color: rgb(0, 132, 255);
     }
   </style>
 </head>
@@ -88,13 +111,32 @@
   </div>
   <hr>
   <div class="teks-5">
-    <div id="currency-value">
-      <h1>1,049,61</h1>
-      <h2>USD</h2>
+    <div class="currency">
+      <span id="currency-value">1,049.61</span>
+      <span id="currency-type">USD</span>
     </div>
     <div id="currency-content">
-      <span style="color: green;">+18.05 (1.75%) today</span>
-      <p>After hours 1,048.00 <span style="color: red;">-1.61 (0.15%)</span></p>
+      <p>
+        <span style="color: green;">+18.05 (1.75%) today</span><br>
+      </p>
+      <p>
+        After hours 1,048.00 <span style="color: red;">-1.61 (0.15%)</span>
+      </p>
+    </div>
+  </div>
+  <hr>
+  <div class="teks-6">
+    <div id="profile">
+      <span id="display-name">freeCodeCamp.org</span>
+      <span id="username">@freeCodeCamp</span>
+      <span id="time">1h</span>
+    </div>
+    <div id="content">
+      <p>
+        As a web developer, you'll need want to make your projects easy to use and navigate around.
+        <br><br>
+        Here <span id="tag">@chp_it</span> outlines the top skills new developers should have.
+      </p>
     </div>
   </div>
 </body>
