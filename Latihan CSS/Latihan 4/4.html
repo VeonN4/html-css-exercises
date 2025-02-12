@@ -7,32 +7,81 @@
   <style>
     :root {font-family: sans-serif;}
 
-    #click {
+    #shadow {
       color: #fff;
       font-size: 18px;
       background-color: #0cbb0c;
       border-style: none;
       padding: 8px 15px;
-      margin: 0px 5px 5px 0px;
-      box-shadow: 4px 4px 3px #000;
+      /* margin: 0px 5px 5px 0px; */
+      transform: translateY(-2px) translateX(-2px);
+      box-shadow: 2px 2px 3px #000;
     }
 
-    #click:active {
+    #shadow:active {
+      transform: translateY(0px) translateX(0px);
+      box-shadow: 0px 0px 0px #000;
+    }
+
+    #stretch {
+      color: #fff;
+      background-color: #0cbb0c;
+      transition: padding 1s, font-size 1s;
+      border: none;
+      padding: 10px;
+      font-size: 20px;
+    }
+
+    #stretch:hover {
+      padding: 50px;
+      font-size: 30px;
+    }
+
+    .buttons {
+      /* display: flex; */
+      /* justify-content: space-around; */
+    }
+
+    .buttons button {
       color: #fff;
       font-size: 18px;
       background-color: #0cbb0c;
       border-style: none;
-      padding: 8px 15px;
-      margin: 0px 0px 0px 0px;
-      box-shadow: 0px 0px 0px #000;
+      padding: 15px;
+      transition: margin 0.5s, padding 0.5s;
+      margin-inline: 35px;
     }
+
+    .buttons button:hover {
+      padding-left: 30px;
+      padding-right: 30px;
+      margin-inline: 20px;
+    }
+
+    
   </style>
 </head>
 <body>
   <h3>Latihan 4h - Pagination</h3>
+  <div id="pagination">
+    <button>Prev</button>
+    <a href="">1</a>
+    <a href="">2</a>
+    <a href="">3</a>
+    <a href="">4</a>
+    <a href="">5</a>
+    <button>Next</button>    
+  </div>
   <h3>Latihan 4i - Stretch</h3>
+  <button type="button" id="stretch">Stretch</button>
   <h3>Latihan 4j - 3D Click</h3>
-  <button type="button" id="click">Shadow</button>
+  <button type="button" id="shadow">Shadow</button>
   <h3>Latihan 4k - Margin and padding together</h3>
+  <div class="buttons">
+    <button type="button">One</button>
+    <button type="button">Two</button>
+    <button type="button">Three</button>
+  </div>
+  
 </body>
 </html>
