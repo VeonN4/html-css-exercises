@@ -1,0 +1,48 @@
+* {
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 95vh;
+  background: #FFB200;
+  font-family: sans-serif;
+  text-align: center;
+  color: #666;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+  background: #EB5B00;
+  padding: 2em 0;
+}
+
+#main {
+  display: flex;
+  flex: 1;
+}
+
+main {
+  background: #fff;
+  padding: 3em 0 3em 0;
+  flex: 5 5 150px;
+}
+
+#left{
+  background: #D91656;
+  padding: 3em 0 3em 0;
+  flex: 1 1 100px
+}
+
+#right{
+  background: #D91656;
+  padding: 3em 0 3em 0;
+  flex: 1 1 100px
+}
+
+footer{
+  background: #640D5F;
+  padding: 1em 0 1em 0;
+}

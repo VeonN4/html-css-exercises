@@ -1,5 +1,7 @@
+@import url();
+
 :root {
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
 }
 
 h1 {

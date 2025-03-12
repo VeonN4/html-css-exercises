@@ -67,17 +67,24 @@
 .profile img {
     border-radius: 100px;
     object-fit: cover;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     /* vertical-align: auto; */
 }
 
 .profile span {
-    vertical-align: 45px;
+    color: gray;
+    vertical-align: 35px;
     margin-left: 10px;
     margin-right: 120px;
 }
 
 .profile button {
-    vertical-align: 45px;
+    color: #fff;
+    vertical-align: 35px;
+    border-style: none;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 8px 15px;
+    background: rgb(0, 81, 255);
 }

@@ -1,0 +1,81 @@
+input {
+  margin: 10px;
+  display: block;
+}
+
+.survey {
+  display: inline-block;
+  /* vertical-align: middle; */
+}
+
+.survey p {
+  text-align: justify;
+  display: inline-block;
+  width: 200px;
+  vertical-align: middle;
+}
+
+.survey-button {
+  display: inline-block;
+  margin: 20px;
+}
+
+
+.google-search img {
+  width: 200px;
+  margin: 10px 145px;
+}
+
+#search-shadow {
+  text-align: cent;
+  padding: 10px;
+  margin: 0px 55px;
+  border-radius: 100px;
+  border-style: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  width: 350px;
+}
+
+.signup-form input {
+  padding: 8px;
+  margin: 5px;
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+
+.signup-form button {
+  color: white;
+  background-color: rgb(0, 102, 255);
+  margin: 5px;
+  padding: 10px 190px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.uber-request {
+  font-family: sans-serif;
+  margin: 10px;
+}
+
+.uber-request input {
+  margin: 5px 0px;
+  padding: 10px 150px 10px 15px;
+  border: none;
+  background-color: rgba(128, 128, 128, 0.137);
+}
+
+.uber-request button {
+  border: none;
+  padding: 10px 20px;
+  margin: 25px 15px 0px 0px;
+}
+
+.uber-request #request {
+  color: #fff;
+  background-color: #000;
+}
+
+.uber-request #schedule {
+  background-color: rgba(128, 128, 128, 0.137);
+}

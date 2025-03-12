@@ -1,0 +1,20 @@
+div {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+}
+
+div.section3, div.section2, div.section4 {
+  /* margin: 500px 20px; */
+  padding: 0px 100px;
+}
+
+div.section1 {
+  position: fixed;
+  padding: 500px 0px;
+}
+
+div.section5 {
+  padding: 10000px 0px;
+}
