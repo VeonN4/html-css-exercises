@@ -74,3 +74,71 @@
   padding: 8px 15px;
   background: rgb(0, 140, 255);
 }
+
+.profile-card {
+  display: inline-block;
+  margin: 0px 15px;
+  font-family: sans-serif;
+  height: 330px;
+  width: 200px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+.profile-card h3, p {
+  margin: 5px 0px;
+}
+
+.profile-card button {
+  color: #fff;
+  border-style: none;
+  border-radius: 3px;
+  font-weight: bold;
+  padding: 10px 25px;
+  margin: 5px 0px;
+  background: rgb(0, 140, 255);
+}
+
+
+.profile-card p {
+  color: gray;
+}
+
+
+.profile-card img {
+  object-fit: cover;
+  height: 200px;
+  width: 150px;
+}
+
+.profile-card .content {
+  padding: 10px;
+}
+
+.google-search  {
+  text-align: center;
+}
+
+.google-search img {
+  width: 200px;
+  margin: 10px 145px;
+}
+
+.bottom-buttons {
+  margin: 25px;
+}
+
+.bottom-buttons button {
+  border: none #f8f4f4;
+  margin: 0px 5px;
+  padding: 10px 15px;
+}
+
+#search-shadow {
+  text-align: cent;
+  padding: 10px;
+  margin: 0px 55px;
+  border-radius: 100px;
+  border-style: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  width: 350px;
+}
