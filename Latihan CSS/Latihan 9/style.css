@@ -75,11 +75,11 @@
   background: rgb(0, 140, 255);
 }
 
+
 .profile-card {
   display: inline-block;
   margin: 0px 15px;
   font-family: sans-serif;
-  height: 330px;
   width: 200px;
   box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
 }
@@ -107,7 +107,7 @@
 .profile-card img {
   object-fit: cover;
   height: 200px;
-  width: 150px;
+  width: 200px;
 }
 
 .profile-card .content {

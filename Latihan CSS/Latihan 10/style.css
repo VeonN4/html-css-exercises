@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    font-family: "Roboto", sans-serif;
+}
+
+/* reset margin for p */
+p {margin: 0;}
+
+.profile-picture {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.profile-picture img {
+    border-radius: 100px;
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+}
+
+.profile-info {
+    display: inline-block;
+    width: 200px;
+}
+
+.profile-info #profile-name {
+    font-weight: bold;
+}
+
+.profile-info #profile-alias, #profile-jobs {
+    color: #9e9e9e;
+}
+
+.profile-follow-btn {
+    display: inline-block;
+}
+
+.profile-follow-btn button {
+    /* Vertical Align to center the fucking button */
+    vertical-align: 18px;
+
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #4093ee;
+    padding: 5px 10px;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
